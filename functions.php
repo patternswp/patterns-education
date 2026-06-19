@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 define( 'PATTERNS_EDUCATION_PATH', trailingslashit( get_template_directory() ) );
 define( 'PATTERNS_EDUCATION_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'PATTERNS_EDUCATION_VERSION', '1.0.3' );
+define( 'PATTERNS_EDUCATION_VERSION', '2.0.0' );
 define( 'PATTERNS_EDUCATION_THEME_NAME', 'patterns-education' );
 define( 'PATTERNS_EDUCATION_OPTION_NAME', 'patterns-education' );
 
