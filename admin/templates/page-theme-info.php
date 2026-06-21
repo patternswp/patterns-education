@@ -388,6 +388,28 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<?php
 					}
 					?>
+					<?php
+					$changelog = function_exists( 'patterns_education_parse_changelog' ) ? patterns_education_parse_changelog() : '';
+					if ( $changelog ) {
+						?>
+							<div class="at-row">
+								<div class="at-col-12">
+									<div class="patterns-education-card at-bg-cl at-bdr">
+										<div class="patterns-education-card-header at-bdr at-p at-jfy-cont-st at-gap at-flx">
+											<span class="dashicons dashicons-backup"></span>
+											<h4 class="patterns-education-card-header-ttl at-txt at-m">
+												<?php esc_html_e( 'Changelog', 'patterns-education' ); ?>
+											</h4>
+										</div>
+										<div class="patterns-education-card-body at-p">
+											<pre class="patterns-education-changelog"><?php echo wp_kses_post( $changelog ); ?></pre>
+										</div>
+									</div>
+								</div>
+							</div>
+						<?php
+					}
+					?>
 				</div>
 			</div>
 		</div>
