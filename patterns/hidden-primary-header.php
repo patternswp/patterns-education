@@ -12,11 +12,11 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-default-background-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
-    
+
 <!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group">
-    
+
 <!-- wp:pattern {"slug":"patterns-education/site-identity"} /-->
 <!-- wp:pattern {"slug":"patterns-education/navigation-menu"} /-->
 </div>

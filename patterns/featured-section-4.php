@@ -37,7 +37,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center">
-    
+
     <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":1.6}},"textColor":"base","fontSize":"medium"} -->
     <p class="has-text-align-left has-base-color has-text-color has-medium-font-size" style="line-height:1.6"><?php esc_html_e( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an', 'patterns-education' ); ?></p>

@@ -11,7 +11,7 @@
  * @subpackage Patterns_Education/patterns
  * @since      1.0.0
  */
- 
+
 ?>
 <!-- wp:pattern {"slug":"patterns-education/featured-section-3"} /-->
 
