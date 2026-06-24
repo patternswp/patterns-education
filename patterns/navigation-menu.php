@@ -11,7 +11,7 @@
 
 ?>
 <!-- wp:navigation -->
-	<!-- wp:home-link {"label":"<?php echo esc_html_x( 'Home', 'label', 'patterns-education' ); ?>"} /-->	
+	<!-- wp:home-link {"label":"<?php echo esc_html_x( 'Home', 'label', 'patterns-education' ); ?>"} /-->
     <!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'patterns-education' ); ?>","url":"#"} /-->
     <!-- wp:navigation-link {"label":"<?php esc_html_e( 'Team', 'patterns-education' ); ?>","url":"#"} /-->
     <!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'patterns-education' ); ?>","url":"#"} /-->

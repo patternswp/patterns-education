@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 					?>
 				</p>
-			
+
 				<a href="https://patternswp.com/full-site-editing-fse-themes/patterns-education" target="_blank" rel="noopener noreferrer nofollow" class="patterns-education-gsn-btn patterns-education-btn-outline button button-primary button-hero patterns-education-install-plugins">
 					<?php esc_html_e( 'Documentation', 'patterns-education' ); ?>
 				</a>
@@ -58,7 +58,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					</svg>
 					<div class="welcome-panel-column-content">
 						<h3>
-							<?php esc_html_e( 'Customize Templates, Template Parts & More', 'patterns-education' ); ?>    
+							<?php esc_html_e( 'Customize Templates, Template Parts & More', 'patterns-education' ); ?>
 						</h3>
 						<p>
 							<?php esc_html_e( 'With a block theme, you can customize every aspect of both the theme and the site, from headers and footers to individual blocks, providing a cohesive and personalized design.', 'patterns-education' ); ?>
@@ -122,7 +122,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							</h4>
 						</div>
 						<div class="patterns-education-card-body at-p at-p">
-							<div class="patterns-education-intro-auth--info">								
+							<div class="patterns-education-intro-auth--info">
 								<ul class="patterns-education-personal-detail at-flx at-flx-col at-gap">
 									<li class="">
 										<dl class="at-flx at-al-itm-ctr at-gap">
@@ -136,7 +136,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 												<a href="https://wordpress.org/support/theme/patterns-education" target="_blank" rel="noopener noreferrer nofollow">
 													<?php esc_html_e( 'Create A Ticket', 'patterns-education' ); ?>
 												</a>
-											</dd>                                                        
+											</dd>
 										</dl>
 									</li>
 									<li class="mt-2">
@@ -149,7 +149,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 											</dt>
 											<dd class="at-m">
 												<?php esc_html_e( 'Kathmandu, Nepal', 'patterns-education' ); ?>
-											</dd>                                                        
+											</dd>
 										</dl>
 									</li>
 								</ul>
@@ -164,7 +164,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 											<span class="dashicons dashicons-twitter"></span>
 										</a>
 									</li>
-								</ul>	
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -305,7 +305,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 										<?php
 									}
 									?>
-								</div>				
+								</div>
 							</div>
 						</div>
 							<?php
@@ -381,6 +381,28 @@ if ( ! defined( 'ABSPATH' ) ) {
 												}
 												?>
 											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<?php
+					}
+					?>
+					<?php
+					$changelog = function_exists( 'patterns_education_parse_changelog' ) ? patterns_education_parse_changelog() : '';
+					if ( $changelog ) {
+						?>
+							<div class="at-row">
+								<div class="at-col-12">
+									<div class="patterns-education-card at-bg-cl at-bdr">
+										<div class="patterns-education-card-header at-bdr at-p at-jfy-cont-st at-gap at-flx">
+											<span class="dashicons dashicons-backup"></span>
+											<h4 class="patterns-education-card-header-ttl at-txt at-m">
+												<?php esc_html_e( 'Changelog', 'patterns-education' ); ?>
+											</h4>
+										</div>
+										<div class="patterns-education-card-body at-p">
+											<pre class="patterns-education-changelog"><?php echo wp_kses_post( $changelog ); ?></pre>
 										</div>
 									</div>
 								</div>

@@ -130,11 +130,11 @@
 
 		<!-- wp:navigation {"textColor":"quaternary","overlayMenu":"never","layout":{"type":"flex","orientation":"vertical","justifyContent":"left"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400","letterSpacing":"0.5px","fontSize":"14px","textTransform":"capitalize"},"spacing":{"blockGap":"var:preset|spacing|10"}}}  -->
 		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'patterns-education' ); ?>","url":"#"} /-->
-		
+
 		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'patterns-education' ); ?>","url":"#"} /-->
-		
+
 		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'FAQs', 'patterns-education' ); ?>","url":"#"} /-->
-		
+
 		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Authors', 'patterns-education' ); ?>","url":"#"} /-->
 		<!-- /wp:navigation -->
 		</div>

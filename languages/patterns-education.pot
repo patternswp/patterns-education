@@ -1,15 +1,15 @@
-# Copyright (C) 2025 patternswp
+# Copyright (C) 2026 patternswp
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Patterns Education 1.0.2\n"
+"Project-Id-Version: Patterns Education 2.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/patterns-education\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-07-04T04:15:33+00:00\n"
+"POT-Creation-Date: 2026-06-22T15:12:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: patterns-education\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer, please make sure you visit our %2$swelcome page%3$s."
 msgstr ""
 
-#. translators: %s: singular/plular .
+#. translators: %s: singular/plural .
 #: admin/templates/notice-getting-started.php:43
 #, php-format
 msgid "Clicking the button below will install and activate the following %s:"
@@ -283,6 +283,10 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr ""
 
+#: admin/templates/page-theme-info.php:401
+msgid "Changelog"
+msgstr ""
+
 #. translators: %s: Property name.
 #: includes/api/class-api-settings.php:154
 #, php-format
@@ -323,7 +327,7 @@ msgid "Search results for: \"%s\""
 msgstr ""
 
 #: includes/class-block-bindings.php:112
-#: patterns/footer.php:135
+#: patterns/footer.php:132
 #: patterns/navigation-menu.php:17
 msgid "Blog"
 msgstr ""
@@ -404,43 +408,43 @@ msgstr ""
 msgid "and"
 msgstr ""
 
-#: includes/functions.php:549
+#: includes/functions.php:557
 msgid "How can I customize the theme header?"
 msgstr ""
 
-#: includes/functions.php:550
+#: includes/functions.php:558
 msgid "You can customize the theme header by editing the Header template part in the Site Editor. Go to Appearance > Editor > Patterns > Header, then select and edit the Header template part."
 msgstr ""
 
-#: includes/functions.php:553
+#: includes/functions.php:561
 msgid "How do I change the footer credits?"
 msgstr ""
 
-#: includes/functions.php:554
+#: includes/functions.php:562
 msgid "To change the footer credits, go to  Appearance > Editor > Patterns > Footer, then select and edit the Footer template part. You can add your own text or remove the existing credits."
 msgstr ""
 
-#: includes/functions.php:557
+#: includes/functions.php:565
 msgid "Does this theme support block patterns?"
 msgstr ""
 
-#: includes/functions.php:558
+#: includes/functions.php:566
 msgid "Yes, this theme includes several pre-designed block patterns that you can use to quickly create layouts. You can find these patterns in the block inserter."
 msgstr ""
 
-#: includes/functions.php:561
+#: includes/functions.php:569
 msgid "How can I create custom templates?"
 msgstr ""
 
-#: includes/functions.php:562
+#: includes/functions.php:570
 msgid "You can create custom templates by going to Appearance > Editor > Templates, then click Add New Template. You can then design your custom template using blocks."
 msgstr ""
 
-#: includes/functions.php:565
+#: includes/functions.php:573
 msgid "How do I use global styles?"
 msgstr ""
 
-#: includes/functions.php:566
+#: includes/functions.php:574
 msgid "To use global styles, go to Appearance > Editor > Styles, then click on the Edit icon in the top right side of Styles. From there, you can customize the colors, typography, and layout for your entire site."
 msgstr ""
 
@@ -492,38 +496,38 @@ msgctxt "Pattern description"
 msgid "A collection of various WordPress inbuilt blocks, such as headings, paragraphs, image, groups, and buttons, arranged in different positions to form a complete page layout."
 msgstr ""
 
-#: patterns/card-1.php:20
+#: patterns/card-1.php:21
 #: patterns/featured-section-2.php:37
-#: patterns/featured-section-2.php:94
-#: patterns/featured-section-2.php:151
+#: patterns/featured-section-2.php:95
+#: patterns/featured-section-2.php:153
 msgid "Business &amp; Management"
 msgstr ""
 
-#: patterns/card-1.php:24
+#: patterns/card-1.php:25
 #: patterns/featured-section-2.php:41
-#: patterns/featured-section-2.php:98
-#: patterns/featured-section-2.php:155
+#: patterns/featured-section-2.php:99
+#: patterns/featured-section-2.php:157
 msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores eaque"
 msgstr ""
 
-#: patterns/card-1.php:40
+#: patterns/card-1.php:41
 #: patterns/featured-section-2.php:57
-#: patterns/featured-section-2.php:114
-#: patterns/featured-section-2.php:171
+#: patterns/featured-section-2.php:115
+#: patterns/featured-section-2.php:173
 msgid "110"
 msgstr ""
 
-#: patterns/card-1.php:54
+#: patterns/card-1.php:55
 #: patterns/featured-section-2.php:71
-#: patterns/featured-section-2.php:128
-#: patterns/featured-section-2.php:185
+#: patterns/featured-section-2.php:129
+#: patterns/featured-section-2.php:187
 msgid "10"
 msgstr ""
 
-#: patterns/card-1.php:60
+#: patterns/card-1.php:61
 #: patterns/featured-section-2.php:77
-#: patterns/featured-section-2.php:134
-#: patterns/featured-section-2.php:191
+#: patterns/featured-section-2.php:135
+#: patterns/featured-section-2.php:193
 msgid "$30.00"
 msgstr ""
 
@@ -614,15 +618,15 @@ msgctxt "Pattern title"
 msgid "Featured Section 2"
 msgstr ""
 
-#: patterns/featured-section-2.php:204
+#: patterns/featured-section-2.php:207
 msgid "49,545+"
 msgstr ""
 
-#: patterns/featured-section-2.php:208
+#: patterns/featured-section-2.php:211
 msgid "more skillful courses you can explore"
 msgstr ""
 
-#: patterns/featured-section-2.php:217
+#: patterns/featured-section-2.php:220
 #: patterns/hero-banner-content.php:50
 msgid "Explore All Courses"
 msgstr ""
@@ -771,21 +775,21 @@ msgstr ""
 msgid "4 apt. Flawing Street. The Grand Avenue. Liverpool, UK 33342"
 msgstr ""
 
-#: patterns/featured-section-9.php:85
-#: patterns/footer.php:63
+#: patterns/featured-section-9.php:84
+#: patterns/footer.php:61
 msgid "info@example.com"
 msgstr ""
 
-#: patterns/featured-section-9.php:99
-#: patterns/footer.php:79
+#: patterns/featured-section-9.php:97
+#: patterns/footer.php:76
 msgid "(629) 555-0129"
 msgstr ""
 
-#: patterns/featured-section-9.php:114
+#: patterns/featured-section-9.php:112
 msgid "An we will get back to you"
 msgstr ""
 
-#: patterns/featured-section-9.php:118
+#: patterns/featured-section-9.php:116
 msgid "Social Networks"
 msgstr ""
 
@@ -803,36 +807,36 @@ msgstr ""
 msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy"
 msgstr ""
 
-#: patterns/footer.php:106
+#: patterns/footer.php:103
 msgid "Offices Hour"
 msgstr ""
 
-#: patterns/footer.php:112
+#: patterns/footer.php:109
 msgid "Mon – Thus: 8.00am 6.00pm"
 msgstr ""
 
-#: patterns/footer.php:116
+#: patterns/footer.php:113
 msgid "Fri – Sat: 8.00am 6.00pm"
 msgstr ""
 
-#: patterns/footer.php:120
+#: patterns/footer.php:117
 msgid "Sun: Closed"
 msgstr ""
 
-#: patterns/footer.php:131
+#: patterns/footer.php:128
 msgid "Useful Links"
 msgstr ""
 
-#: patterns/footer.php:137
+#: patterns/footer.php:134
 #: patterns/navigation-menu.php:15
 msgid "About"
 msgstr ""
 
-#: patterns/footer.php:139
+#: patterns/footer.php:136
 msgid "FAQs"
 msgstr ""
 
-#: patterns/footer.php:141
+#: patterns/footer.php:138
 msgid "Authors"
 msgstr ""
 
@@ -1411,6 +1415,7 @@ msgid "Quaternary"
 msgstr ""
 
 #: theme.json
+#: styles/dark.json
 msgctxt "Color name"
 msgid "Quinary"
 msgstr ""
@@ -1425,6 +1430,42 @@ msgstr ""
 #: styles/dark.json
 msgctxt "Color name"
 msgid "Accent"
+msgstr ""
+
+#: theme.json
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "Base to Primary"
+msgstr ""
+
+#: theme.json
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "Base to Secondary"
+msgstr ""
+
+#: theme.json
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "White to Primary"
+msgstr ""
+
+#: theme.json
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "White to Accent"
+msgstr ""
+
+#: theme.json
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "Tertiary to Secondary"
+msgstr ""
+
+#: theme.json
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "Base to Quinary"
 msgstr ""
 
 #: theme.json
@@ -1465,6 +1506,36 @@ msgstr ""
 #: theme.json
 msgctxt "Space size name"
 msgid "XX-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Extra Large"
 msgstr ""
 
 #: theme.json

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title:404
+ * Title: 404
  * Slug: patterns-education/hidden-404
  * Inserter: no
  *
@@ -21,7 +21,7 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group alignwide">
 
- 
+
 <!-- wp:heading {"textAlign":"left","level":1,"align":"wide","style":{"typography":{"fontSize":"8rem"}}} -->
 <h1 class="wp-block-heading alignwide has-text-align-left" style="font-size:8rem"><?php echo esc_html_e( 'Ooops!', 'patterns-education' ); ?></h1>
 <!-- /wp:heading -->

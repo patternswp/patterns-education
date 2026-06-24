@@ -19,7 +19,7 @@
 	<!-- wp:pattern {"slug":"patterns-education/featured-section-1"} /-->
 	<!-- wp:pattern {"slug":"patterns-education/featured-section-2"} /-->
 	<!-- wp:pattern {"slug":"patterns-education/featured-section-3"} /-->
-     
+
     <!-- wp:group {"align":"full","style":{"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"padding":{"bottom":"var:preset|spacing|80","top":"var:preset|spacing|80"},"blockGap":"0px"}},"backgroundColor":"tertiary","layout":{"type":"constrained","contentSize":""}} -->
         <div class="wp-block-group alignfull has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 
